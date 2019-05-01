@@ -56,7 +56,7 @@ public class AnnonymousClass1 extends Activity {
  		locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
        
  		// Register the listener with the Location Manager to receive location updates
- 		locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
+ 		locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
     }  
     
     @Override
